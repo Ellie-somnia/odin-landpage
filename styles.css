@@ -16,10 +16,94 @@ CSS class to personalize Roboto font
  */
 
 
+/* General */
+
+html {
+    box-sizing: border-box;
+}
+
 body {
     font-family: "Roboto", sans-serif;
+    color: #f9faf8;
+    padding: 0;
+    margin: 0;
+    
+}
+
+/* Hero: general */
+#hero-base-txt {
+    font-size: 18px;
 }
 
 .background-dark {
+    border: 1px solid #fff;
     background-color: #1f2937;
+    padding: 20px 200px 0px;
 }
+
+/* Hero: navigation bar */
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.locations {
+    margin-left: auto;
+}
+
+.contactus,
+.about {
+    padding-left: 20px;
+}
+
+.logo-txt {
+    font-size: 24px;
+    margin-left: 5px;
+}
+
+/* Hero: main */
+.hero {
+    margin: 200px 0;
+    display: flex;
+}
+
+.hero-left {
+    flex: 1 1 0;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.img-wraper {
+    border-left: 2px solid #f9faf8;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    flex: 1 1 0;
+}
+
+.slogan {
+    text-align: center; 
+}
+
+.top {
+    margin-top: auto;
+    margin-bottom: 3px;
+    font-size: 38px; 
+    border-bottom: 1px solid aquamarine;
+}
+
+.button.join {
+    background-color: #3882f6;
+    color: white;
+    border: none;
+    display: inline-block;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin-top: 8px;
+}
+
